@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page Title</title>
+	<style>
+		body {
+			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
+		}
+		.container {
+			max-width: 960px;
+			margin: 0 auto;
+			padding: 20px;
+		}
+		h1 {
+			color: #333;
+			text-align: center;
+			margin-bottom: 40px;
+		}
+		.gallery {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+		}
+		.gallery img {
+			width: 150px;
+			height: 150px;
+			object-fit: cover;
+			object-position: center;
+			border-radius: 10px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+			transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+			cursor: pointer;
+			margin: 10px;
+		}
+		.gallery img:hover {
+			transform: scale(1.1);
+			box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<h1>Photo Gallery</h1>
+		<div class="gallery">
+			<img src="photo1.jpg" alt="Photo 1" onclick="window.parent.frames['rPanel'].location.href='https://example.com/photo1_original.jpg'">
+			<img src="photo2.jpg" alt="Photo 2" onclick="window.parent.frames['rPanel'].location.href='https://example.com/photo2_original.jpg'">
+			<img src="photo3.jpg" alt="Photo 3" onclick="window.parent.frames['rPanel'].location.href='https://example.com/photo3_original.jpg'">
+			<img src="photo4.jpg" alt="Photo 4" onclick="window.parent.frames['rPanel'].location.href='https://example.com/photo4_original.jpg'">
+			<img src="photo5.jpg" alt="Photo 5" onclick="window.parent.frames['rPanel'].location.href='https://example.com/photo5_original.jpg'">
+			<img src="photo6.jpg" alt="Photo 6" onclick="window.parent.frames['rPanel'].location.href='https://example.com/photo6_original.jpg'">
+			<img src="photo7.jpg" alt="Photo 7" onclick="window.parent.frames['rPanel'].location.href='https://example.com/photo7_original.jpg'">
+			<img src="photo8.jpg" alt="Photo 8" onclick="window.parent.frames['rPanel'].location.href='https://example.com/photo8_original.jpg'">
+			<img src="photo9.jpg" alt="Photo 9" onclick="window.parent.frames['rPanel'].location.href='https://example.com/photo9_original.jpg'">
+			<img src="photo10.jpg" alt="Photo 10" onclick="window.parent.frames['rPanel'].location.href='https://example.com/photo10_original.jpg'">
+			<img src="photo11.jpg" alt="Photo 11" onclick="window.parent.frames['rPanel'].location.href='https://example.com/photo11_original.jpg'">
+			<img src="photo12.jpg" alt="Photo 12" onclick="window.parent.frames['rPanel'].location.href='https://example.com/photo12_original.jpg'">
+			<img src="photo13.jpg" alt="Photo 13" onclick="window.parent.frames['rPanel'].location.href='https://example.com/photo13_original.jpg'">
+			<img src="photo14.jpg" alt="Photo 14" onclick="window.parent.frames['rPanel'].location.href='https://example.com/photo14_original.jpg'">
+			<img src="photo15.jpg" alt="Photo 15" onclick="window.parent.frames['rPanel'].location.href='https://example.com/photo15_original.jpg'">
+			<img src="photo16.jpg" alt="Photo 16" onclick="window.parent.frames['rPanel'].location.href='https://example.com/photo16_original.jpg'">
+			<img src="photo17.jpg" alt="Photo 17" onclick="window.parent.frames['rPanel'].location.href='https://example.com/photo17_original.jpg'">
+			<img src="photo18.jpg" alt="Photo 18" onclick="window.parent.frames['rPanel'].location.href='https://example.com/photo18_original.jpg'">
+			<img src="photo19.jpg" alt="Photo 19" onclick="window.parent.frames['rPanel'].location.href='https://example.com/photo19_original.jpg'">
+			<img src="photo20.jpg" alt="Photo 20" onclick="window.parent.frames['rPanel'].location.href='https://example.com/photo20_original.jpg'">
+			
+		</div>
+	</div>
+</body>
+</html>
